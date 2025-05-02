@@ -5,78 +5,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leo Zheng</title>
-    <link rel="icon" type="image/png" href="Images/contact_icon.png"> 
+    <link rel="icon" type="image/png" href="Images/contact_icon.png">
     <meta charset="UTF-8">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Leo Zheng's Portfolio" />
     <link rel="stylesheet" href="style/style.css">
     <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
 </head>
 
 <body>
-    <!-- About Me section -->
-    <section>
-        <div><b>ABOUT</b></div>
-        <div class = "body">
-            <div class =  "body_paragraph" style = "color:#DB7824">
-                Hi, I'm <b>Leo</b>, a Computer Science major at Hunter College.
-            </div>
-            <div class =  "body_paragraph" style ="color:#2487DB">
-                I'm passionate about software engineering, and I especially 
-                enjoy data structures and algorithms, as they've taught me to approach problems with a new way of thinking.
-                My main expertise is in object-oriented programming using C++.
-            </div>
-            <div class =  "body_paragraph" style ="color:#2487DB">
-                I'm looking forward to explore new opportunities to futher develop my skills.
+    <section class="sidenav">
+        <div class="profilePic">
+            <div style="border-radius: 50%; width: 180px; height: 180px; overflow: hidden;">
+                <img src="Images/profile-pic.jpg" alt="profile picture" width="160px">
             </div>
         </div>
+        <div class="profileDesc">Leo Zheng</div>
+        <div class="profileButtons">
+            <!-- Email -->
+            <a class="profileButton" href="mailto: " target="_blank">
+                <i class="fa fa-envelope-square" aria-hidden="true"></i>
+            </a>
+            <!-- Github -->
+            <a class="profileButton" href="https://github.com/Leozheng04" target="_blank">
+                <i class="fa fa-github-square" aria-hidden="true"></i>
+            </a>
+            <!-- LinkedIn -->
+            <a class="profileButton" href="" target="_blank">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+            </a>
+            <!-- Resume -->
+            <a class="profileSpecialButton" href="" target="_blank">
+                <div style="position: relative; right: 5px; bottom: 7px">
+                    <i class="fa fa-file-text" aria-hidden="true"></i>
+                </div>
+            </a>
+        </div>
+        <section id="nav-items" style="margin-top: 20px;">
+            <div><a class="about" href="#about">ABOUT</a></div>
+            <div><a class="education" href="#education">EDUCATION</a></div>
+            <div><a class="experience" href="#experience">EXPERIENCE</a></div>
+            <div><a class="projects" href="#projects">PROJECTS</a></div>
+            <div><a class="awards" href="#awards">AWARDS</a></div>
+        </section>
     </section>
-    <!--Eduction section-->
-    <section>
-        <div><b>EDUCTION</b></div>
-        <div>
+
+    <section class="content">
+        <!-- About Me section -->
+        <section id="about">
+            <div><b>ABOUT</b></div>
+            <div class="body">
+                <div class="body_paragraph" style="color:#DB7824">
+                    Hi, I'm <b>Leo</b>, a Computer Science major at Hunter College.
+                </div>
+                <div class="body_paragraph" style="color:#2487DB">
+                    I'm passionate about software engineering, and I especially
+                    enjoy data structures and algorithms, as they've taught me to approach problems with a new way of
+                    thinking.
+                    My main expertise is in object-oriented programming using C++.
+                </div>
+                <div class="body_paragraph" style="color:#2487DB">
+                    I'm looking forward to explore new opportunities to futher develop my skills.
+                </div>
+            </div>
+        </section>
+        <!--Eduction section-->
+        <section id="education">
+            <div><b>EDUCATION</b></div>
             <div>
-                <image src = "images/cuny-hunter-college.jpg" height="200px" weight = "200px">
-                <p> 2023 - Present </p>
-                <p> GPA: 3.56 </p>
+                <div>
+                    <image src="images/cuny-hunter-college.jpg" height="200px" weight="200px">
+                        <p> 2023 - Present </p>
+                        <p> GPA: 3.56 </p>
+                </div>
+
             </div>
-            
-        </div>
-    </section>
-     <!--Experience section-->
-     <section>
-        <div><b>EXPERIENCE</b></div>
-        <div>
+        </section>
+
+        <!--Experience section-->
+        <section id="experience">
+            <div><b>EXPERIENCE</b></div>
             <div>
-                empty
+                <div>
+                    empty
+                </div>
+
             </div>
-            
-        </div>
-    </section>
-         <!--Project section-->
-         <section>
+        </section>
+
+        <!--Project section-->
+        <section id="projects">
             <div><b>PROJECTS</b></div>
             <div>
-               
+
+            </div>
+        </section>
+
+        <!--Awards section-->
+        <section id="awards">
+            <div><b>AWARDS</b></div>
+            <div>
+                <div>
+                    2× Dean's Honor List
+                    <br>
+                    Fall 2023
+                    <br>
+                    Fall 2024
+                </div>
             </div>
         </section>
     </section>
-    <!--Awards section-->
-    <section>
-       <div><b>AWARDS</b></div>
-       <div>
-           <div>
-            2× Dean's Honor List 
-            <br>
-            Fall 2023 
-            <br>
-            Fall 2024
-           </div>
-       </div>
-   </section>
 </body>
 
 </html>
