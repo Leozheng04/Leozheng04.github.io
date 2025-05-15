@@ -27,6 +27,15 @@
     top: 100px;
     left: calc(50vw - min(1250px, calc(100vw - 100px))/2 + 300px);
 }
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to top,rgb(137, 132, 132), white);
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-size: cover; 
+}
+
 #nav-items a {
     text-decoration: none;
     position: relative;
@@ -34,9 +43,9 @@
 #nav-items a:after{
     content: '';
     position:absolute;
-    background-color: blueviolet;
+    background-color: #448EE2;
     height: 3px;
-    left: 0;
+    left: 0;    
     width: 0;
     bottom: -5px;
     transition: width 0.3s ease;
@@ -55,19 +64,72 @@
 }
 .sidenav .profilePic{
     border-radius: 50%;
-    border-color: purple;
-
 }
 .sidenav .profileDesc {
     margin: 15px;
 }
 .sidenav .profilePic img {
-    margin-left: 5px;
-    width: 100%;
+    margin-left: 2px;
+    width: 102%;
     height: 100%;
     object-fit: cover; 
 }
 .sidenav .profilePic{
     border-radius: 50%;
-    border: 10px solid blueviolet;
+    border: 10px solid whitesmoke;
+}
+.cube {
+    position: absolute;
+    bottom: -150px;
+    animation: animate 15s infinite ease-in;
+    border-radius: 5%;
+    background: rgba(255, 255, 255, 0.3); 
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+    pointer-events: none;
+}
+
+.cube:nth-child(1) {
+    left: 7%;
+    animation-delay: 1s;
+}
+.cube:nth-child(2) {
+    left: 20%;
+    animation-delay: 5s;
+}
+.cube:nth-child(3) {
+    left: 40%;
+    animation-delay: 9s;
+}
+.cube:nth-child(4) {
+    left: 50%;
+    animation-delay: 1s;
+}
+.cube:nth-child(5) {
+    left: 27%;
+    animation-delay: 10s;
+}
+.cube:nth-child(6) {
+    left: 65%;
+    animation-delay: 5s;
+}
+.cube:nth-child(7) {
+    left: 80%;
+    animation-delay: 9s;
+}
+.cube:nth-child(8) {
+    left: 75%;
+    animation-delay: 3s;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(-800px) rotate(360deg);
+        opacity: 0;
+    }
 }
