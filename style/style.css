@@ -27,3 +27,47 @@
     top: 100px;
     left: calc(50vw - min(1250px, calc(100vw - 100px))/2 + 300px);
 }
+#nav-items a {
+    text-decoration: none;
+    position: relative;
+}
+#nav-items a:after{
+    content: '';
+    position:absolute;
+    background-color: blueviolet;
+    height: 3px;
+    left: 0;
+    width: 0;
+    bottom: -5px;
+    transition: width 0.3s ease;
+}
+#nav-items a:hover:after {
+    width: 100%;
+}
+
+.sidenav .profileButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sidenav .profileButtons .profileButton{
+    padding: 10px 10px;
+}
+.sidenav .profilePic{
+    border-radius: 50%;
+    border-color: purple;
+
+}
+.sidenav .profileDesc {
+    margin: 15px;
+}
+.sidenav .profilePic img {
+    margin-left: 5px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.sidenav .profilePic{
+    border-radius: 50%;
+    border: 10px solid blueviolet;
+}
