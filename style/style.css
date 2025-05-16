@@ -145,3 +145,7 @@ body{
 section{
     margin-bottom: 30px;
 }
+video{
+    width: 400px;
+    height: 300px;
+}
