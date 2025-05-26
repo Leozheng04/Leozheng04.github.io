@@ -149,8 +149,13 @@ video{
     height: 300px;
     margin-bottom: 10px;
 }
-.vidoes-container{
-    display:flex;
+.vidoes-container {
+    display: flex;
+    background-color: rgba(206, 205, 200, 0.4);
+    box-shadow: 2px 2px 10px rgba(183, 209, 242, 0.6);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
 }
 .videos-description {
     color:purple;
