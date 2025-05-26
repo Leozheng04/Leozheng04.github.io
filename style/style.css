@@ -5,7 +5,7 @@
     top: 0px;
     left: calc(50vw - min(1250px, calc(100vw - 100px))/2);
     z-index: 10;
-    background-color: rgb(228, 239, 248);
+    background-color: #cecdc864 ;
     padding: 0px 10px;
     display: flex;
     flex-direction: column;
@@ -69,8 +69,7 @@ body{
     margin: 15px;
 }
 .sidenav .profilePic img {
-    margin-left: 2px;
-    width: 102%;
+    width: 105%;
     height: 100%;
     object-fit: cover; 
 }
@@ -148,4 +147,19 @@ section{
 video{
     width: 400px;
     height: 300px;
+}
+@media screen and (max-width: 1000px){
+    .sidenav{
+        display: none;
+    }
+    .content{
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin-left: 10px;
+    }
+}
+.vidoes-container{
+    display:flex;
+    justify-content: left;
 }
