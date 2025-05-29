@@ -176,3 +176,10 @@ video{
         display:block;
     }
 }
+.profileButton i {
+    color: purple;
+    transition: color 0.3s ease;
+}
+.profileButton i:hover{
+    color:#448EE2;
+}
