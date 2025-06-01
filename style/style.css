@@ -78,7 +78,7 @@ body{
 }
 .sidenav .profilePic{
     border-radius: 50%;
-    border: 10px solid rgba(245, 245, 245, 0.623);
+    border: 10px solid rgba(255, 255, 255, 0.6);
 }
 .cube {
     position: absolute;
@@ -192,13 +192,14 @@ video{
 .profileButton i:hover{
     color:#448EE2;
 }
-#education{
-    border-radius: bold;
-}
-#experience .body
-{
+#education .box {
+    display: flex;
+    justify-content: center;
     box-shadow: 2px 2px 10px rgba(183, 209, 242, 0.6);
-    border-radius: 8px;
     margin-bottom: 10px;
     padding: 10px;
+    transition: transform 0.3s ease;
+}
+#education .box:hover{
+    transform: translateY(-5px);
 }
