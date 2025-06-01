@@ -11,9 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Leo Zheng's Portfolio" />
     <link rel="stylesheet" href="style/style.css">
-    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
 </head>
 
 <!-- (5/16/25) Critique: 
@@ -43,7 +45,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
                 <img src="images/profile-pic.webp" alt="profile picture" width="160px">
             </div>
         </div>
-        <div class="profileDesc">Leo Zheng</div>
+        <div class="profileDesc" style="font-size: 20px">Leo Zheng</div>
         <div class="profileButtons">
             <!-- Email -->
             <a class="profileButton" href="mailto: " target="_blank">
@@ -100,7 +102,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
         </section>
         <!--Eduction section-->
         <section id="education">
-            <div><b>EDUCATION</b></div>
+            <div><h1>EDUCATION</h1></div>
             <div>
                 <div class="box">
                     <div id="logo ">
@@ -113,8 +115,8 @@ Add more descriptions for projects (date, technologies and languages used) -->
         </section>
 
         <section id="experience">
-            <div><b>EXPERIENCE</b></div>
-            <div>
+            <div><h1>EXPERIENCE</h1></div>
+            <div class ="body">
                 <div>
                     <p style = "color:purple">C++ and Python </p>
                 </div>
@@ -124,7 +126,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
 
         <!--Project section-->
         <section id="projects">
-            <div><b>PROJECTS</b></div>
+            <div><h1>PROJECTS</h1></div>
             <br>
             <div>
                 <div class="vidoes-container">
@@ -139,6 +141,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
                         </a>
                     </div>
                 </div>
+                <br>
                 <div class="vidoes-container">
                     <video controls>
                         <source src="videos/Tetris.mp4" type="video/mp4">
@@ -151,6 +154,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
                         </a>
                     </div>
                 </div>
+                <br>
                 <div class="vidoes-container">
                     <video controls>
                         <source src="videos/billing.mp4" type="video/mp4">
@@ -171,7 +175,7 @@ Add more descriptions for projects (date, technologies and languages used) -->
             <div><b>AWARDS</b></div>
             <br>
             <div>
-                <div style="color: purple">
+                <div style="color: purple" class = "body">
                     2× Dean's Honor List
                     <br>
                     Fall 2023
