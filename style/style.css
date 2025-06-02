@@ -215,7 +215,8 @@ video{
 #awards-des{
     color: purple;
 }
-footer{
-    background-color: black;
-    width: 100%;
+#end-image img{
+    width: 200px;
+    height: 200px;
 }
+
