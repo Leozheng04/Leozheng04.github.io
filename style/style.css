@@ -160,6 +160,7 @@ video{
     padding: 10px;
     border-radius: 8px;
     transition: transform 0.3s ease;
+    position: relative;
 }
 
 #projects .vidoes-container:hover {
@@ -202,4 +203,19 @@ video{
 }
 #education .box:hover{
     transform: translateY(-5px);
+}
+.project-link i{
+    color: purple;
+}
+.project-link{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+#awards-des{
+    color: purple;
+}
+footer{
+    background-color: black;
+    width: 100%;
 }
